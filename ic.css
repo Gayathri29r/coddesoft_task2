@@ -1,0 +1,330 @@
+body{
+    background-image: url('https://s.tmimgcdn.com/scr/1200x750/177500/coffee-sup-logo-on-black-background-logo-template_177553-original.jpg');
+    background-repeat: no-repeat;
+    background-size: 226vh 97vh;
+    margin-top:0x;
+    color:goldenrod;
+}
+.header{
+    margin-top:0px;
+    font-size: 25px;
+    font-style: oblique;
+    padding-left:30px;
+}
+.list{
+    margin:0px;
+    padding:0px;
+}
+.list a{
+    text-decoration: none;
+    color:goldenrod;
+    margin:0px
+}
+.list a:hover{
+    color:white;
+}
+.list ul{
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+}
+.list ul,li{
+    display: inline-flex;
+    text-align:right ;
+    text-decoration: none;
+    padding-left:140px;
+    padding-right: 20px;
+   justify-content: space-between;
+  
+}
+
+.para h2{
+   margin-top:140px;
+   padding-left:78px;
+   font-size: 32px;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+span{
+    color:white;
+}
+.button{
+    color:blueviolet;
+    font-size: medium;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin-top: 8px;
+    margin-left:80px;
+    cursor: pointer;
+    box-shadow: 0 0 5px goldenrod,
+    0 0 25px goldenrod;
+    background-color:goldenrod;
+}
+.button:hover {
+    box-shadow:0 0 5px goldenrod,
+    0 0 25px goldenrod,0 0 50px goldenrod,
+    0 0 100px goldenrod,0 0 200px goldenrod;
+}
+
+.para p{
+    font-weight:lighter;
+    font-size:20px;
+    padding-left:78px;
+}
+.about {
+   box-sizing: border-box;
+   
+}
+.about h1{
+    margin-top:100px;
+    text-align: center;
+    
+}
+.image1 img{
+    margin-top: 50px;
+    padding-left:90px;
+    width:270px;
+    
+}
+.image2 img{
+    margin-top:-130px;
+    padding-left:365px;
+    width:270px;
+    height:200px;
+}
+.image3 img{
+    margin-top:-90px;
+    padding-left:90px;
+    width:270px;
+    height: 200px;
+}
+.image4 img{
+    margin-top:-130px;
+    padding-left:365px;
+    width:270px;
+    height:180px;
+    margin-bottom:20px;
+}
+.discription{
+    margin-top:-380px;
+    color:black;
+    font-size:15px;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left:670px;
+}
+.discription span{
+    color:goldenrod;
+}
+.discription span:hover{
+    color:rgb(139, 16, 139);
+}
+.heart {
+    width:70px;
+    height:70px;
+    padding-left:750px;
+    margin-top:-178px;
+    margin-bottom:-0px;
+
+}
+#menu{
+    background-color:black;
+    height:650px;
+    margin-top:270px;
+}
+.details h5{
+    text-align:center;
+    font-size:22px;
+    padding-top:40px;
+}
+.details img{
+    height:50px;
+    width:50px;
+    margin-left:640px;
+    margin-top:-480px;
+}
+.container{
+    padding-top:40px;
+    margin:100px 0 0 200px;
+    width:70%;
+    height:450px;
+    display:flex;
+    justify-content: center;
+    gap:6px;
+}
+.container img{
+    width:17%;
+    height:67%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgb(253, 204, 212);
+    transition:all ease-in-out 0.5s;
+}
+.container img:hover{
+    width:25%
+}
+.pix img{
+    margin-top:40px;
+    padding-left:530px;
+    height:390px;
+    margin-bottom:100px;
+    
+}
+
+.pix h5{
+    text-align:center;
+    font-size:22px;
+    padding-top:40px;
+}
+.quality p{
+    color:black;
+    margin-top:-430px;
+    padding-left:170px;
+    font-weight: bold;
+}
+.quality img{
+    width:55px;
+    height:55px;
+    margin-top:-195px;
+    padding-left:100px;
+}
+.quality span{
+    color:goldenrod;
+}
+.ambience p{
+    color:black;
+    margin-top:70px;
+    font-weight: bold;
+    padding-left:170px;
+}
+.ambience img{
+    width:70px;
+    height:70px;
+    margin-top:-80px;
+    padding-left:90px;
+}
+.ambience span{
+    color:goldenrod;
+}
+.offers p{
+    color:black;
+    margin-top:-130px;
+    font-weight: bold;
+    padding-left:875px;
+}
+.offers span{
+    color:goldenrod;
+}
+.offers img{
+    width:70px;
+    height:70px;
+    margin-top:-78px;
+    padding-left:800px;
+}
+.services p{
+    color:black;
+    margin-top:-180px;
+    margin-bottom:-60px;
+    padding-left:830px;
+    font-weight: bold;
+}
+.services img{
+    width:53px;
+    height:55px;
+    margin-top:-165px;
+    padding-left:800px;
+}
+.services span{
+    color:goldenrod;
+}
+h5{
+    text-align: center;
+    bottom:-100px;
+    
+}
+.container1{
+    background-color: beige;
+    width:150px;
+    height:230px;
+    border:2px solid black;
+    padding:50px;
+    margin-top:240px;
+    margin-left:130px;
+    border-radius: 10px;
+}
+.imageitem img{
+    margin-top:-30px;
+    margin-left:38px;
+    width:90px;
+    height:90px;
+    border-radius:70px;
+}
+   
+.paraitem h2{
+    margin-bottom: 10px;
+}
+.paraitem h4{
+    margin-top: 5px;
+    color:black;
+}
+.container2{
+    display:inline-block;
+    background-color: beige;
+    width:150px;
+    height:230px;
+    border:2px solid black;
+    padding:50px;
+    margin-top:-350px;
+    margin-left:540px;
+    border-radius: 10px;
+}
+.imageitem1 img{
+    margin-top:-30px;
+    margin-left:38px;
+    width:90px;
+    height:90px;
+    border-radius:70px;
+}
+   
+.paraitem1 h2{
+    margin-bottom: 10px;
+}
+.paraitem1 h4{
+    margin-top: 5px;
+    color:black;
+}
+.container3{
+    background-color: beige;
+    width:150px;
+    height:230px;
+    border:2px solid black;
+    padding:50px;
+    margin-top:-350px;
+    margin-left:950px;
+    border-radius: 10px;
+}
+.imageitem2 img{
+    margin-top:-30px;
+    margin-left:38px;
+    width:90px;
+    height:90px;
+    border-radius:70px;
+}
+   
+.paraitem2 h2{
+    margin-bottom: 10px;
+}
+.paraitem2 h4{
+    margin-top: 5px;
+    color:black;
+}
+.footer{
+    height:50px;
+    background: scroll;
+    background-color: black;
+}
+.footer p{
+    bottom:0px;
+    margin-top:130px;
+    text-align: center;
+    padding:14px;
+}
